@@ -1,0 +1,108 @@
+@import "reset.css";
+/* @import "debug.css"; */
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+:root {
+  --primary-color: hsl(185, 75%, 39%);
+  --main-header-color: hsl(229, 23%, 23%);
+  --main-text-color: hsl(227, 10%, 46%);
+  --line-color: hsla(0, 0%, 59%, 0.3);
+}
+
+body {
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+  color: var(--main-text-color);
+  background-color: var(--primary-color);
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-size: 100vw 100vh, 100vw 100vh;
+  background-position: top -50vh left -50vw, bottom -50vh right -50vw;
+  background-repeat: no-repeat, no-repeat;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--main-header-color);
+  display: block;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 1rem;
+}
+.wrapper {
+  height: 100%;
+  width: atuo;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 368px; */
+  width: auto;
+}
+.photo {
+  position: relative;
+  margin-bottom: 4.4rem;
+}
+
+img.victor-image {
+  position: absolute;
+  top: 63%;
+  border-radius: 50%;
+  border: solid 4px #fff;
+}
+img.bg {
+  width: auto;
+}
+.profile {
+  flex-direction: column;
+}
+.name {
+  font-size: 1.1rem;
+}
+span,
+.place {
+  color: var(--main-text-color);
+  font-weight: 400;
+}
+span {
+  padding-left: 0.6rem;
+}
+
+.place {
+  font-size: 0.9rem;
+  margin-top: 0.4rem;
+}
+hr {
+  border-style: none;
+  border-top: 1px solid var(--line-color);
+  margin: 1.5rem 0;
+}
+.stats-group {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 2.6rem 1.4rem 2rem;
+}
+.value {
+  font-size: 1.1rem;
+}
+.attr {
+  letter-spacing: 0.1rem;
+  font-size: 0.6rem;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
