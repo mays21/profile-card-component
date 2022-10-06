@@ -37,7 +37,7 @@ main {
 }
 .wrapper {
   height: 100%;
-  width: atuo;
+  width: auto;
   background-color: #fff;
   border-radius: 10px;
   overflow: hidden;
