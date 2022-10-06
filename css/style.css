@@ -42,11 +42,11 @@ main {
   border-radius: 10px;
   overflow: hidden;
 }
-section {
+section,
+.photo {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* max-width: 368px; */
   width: auto;
 }
 .photo {
